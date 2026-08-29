@@ -209,3 +209,12 @@ docker login --username AWS --password-stdin \
 >docker run -d -p 5000:5000 417382966138.dkr.ecr.us-east-1.amazonaws.com/molecare-ml-docker-app:latest
 > curl http://localhost:5000/hello/Yauhen
 
+---
+
+## Contributors
+
+Thank you to everyone who has helped this project. Your code, reviews, issues, and pull requests are appreciated.
+
+- [@YauhenBichel](https://github.com/YauhenBichel)
+
+See the [full contributor graph](https://github.com/YauhenBichel/My-TensorFlow-Serving-with-Dockerimage/graphs/contributors).
