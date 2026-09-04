@@ -174,8 +174,14 @@ https://aws.amazon.com/premiumsupport/knowledge-center/s3-locate-credentials-err
 >aws configure list
 > aws configure --profile AWS
 
-AWSAccessKeyId=***REMOVED-AWS-ACCESS-KEY***
-***REMOVED-AWS-SECRET-KEY***
+Instead of storing AWS credentials in the project, configure your own AWS profile locally:
+
+```bash
+aws configure --profile <name>
+
+Enter your own AWS Access Key ID, Secret Access Key, default region, and output format when prompted.
+
+Never commit AWS credentials or other secrets to this repository.
 region=us-east-1
 format=text
 
